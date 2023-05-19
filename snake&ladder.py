@@ -37,19 +37,7 @@ class user():
                 return(pl)
         return(pl)
     
-'''player=user(name=input())
-player2=user(name=input())
-us=player2.play(random.randint(1,6),0)
-me=player.play(random.randint(1,6),0)
-while me<100 and us <100:
-    us=player2.play(random.randint(1,6),us)
-    me=player.play(random.randint(1,6),me)
-    if me ==100:
-        print(player.name + ' Win')
-        break
-    elif us == 100:
-        print(player2.name + ' Win')
-        break'''
+
 n=int(input("No Of Player playing:"))
 players={}
 game={}
